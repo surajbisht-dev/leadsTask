@@ -17,6 +17,9 @@ mongoose
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.log(err));
 
+app.get("/", (req, res) => {
+  res.send("Smart Lead Automation System Backend is running.");
+});
 // Routes for leads
 app.use("/api/leads", leadRoutes);
 
