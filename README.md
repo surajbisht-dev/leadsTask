@@ -33,7 +33,6 @@ dotenv
 
 i18n-iso-countries (country name converter)
 
-🏗️ Project Architecture
 backend/
   ├── controllers/
   │     └── leadController.js
@@ -52,6 +51,7 @@ frontend/
   │     └── LeadTable.jsx
   ├── services/api.js
   └── App.jsx
+
 
 🔄 Project Workflow (Step-by-Step)
 1️⃣ Frontend Input
