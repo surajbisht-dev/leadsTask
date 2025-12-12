@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/leads";
+const API = "https://leadstask.onrender.com/api/leads";
 
 export const processNames = (names) => axios.post(`${API}/process`, { names });
 
